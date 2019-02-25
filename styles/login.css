@@ -1,12 +1,45 @@
-.centeredBis{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    display:table;
+.centered{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.centered{
-    display: table-cell;
-    text-align: center;
+.container{
+    position: center;
+}
+
+.textBox{
+    width: 240px;
+    margin-top: 5px;
+    height: 20px;
+    font-family: 'Karla', sans-serif;
+    font-size: 0.5em;
+    border: none;
+}
+
+.submitBtn{
+    width: 120px;
+    height: 24px;
+    color: #293f50;
+    background-color: #f6f1d3;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+body{
+    background: #648880;
+    background: linear-gradient(to right, #f6f1d3, #648880, #293f50);
+    font-family: 'Karla', sans-serif;
+    font-size: 2em;
+    color: #f6f1d3;
+}
+
+.loginForm{
+    background: #466368;
+    background: radial-gradient(#648880, #293f50);
+    border-radius: 20%;
+    padding: 33px;
+    margin: 10px;
 }
