@@ -1,3 +1,33 @@
-#container{
-
+body{
+    background: #648880;
+    background: linear-gradient(to left, #f6f1d3, #648880, #293f50);
+    font-family: 'Karla', sans-serif;
+    font-size: 2em;
+    color: #f6f1d3;
 }
+
+.floatLeft{
+    display: block;
+    float: left;
+    margin: 40px;
+    padding: 30px;
+    position: relative;
+    left: 5%;
+    border: none;
+    height: 120px;
+    width: 90px;
+    background: linear-gradient(to bottom right, #040019,#272439,#4B485A,#6F6D7B,#93919C,#B7B6BD,#DBDADE);
+    border-radius: 20%;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.floatLeft:hover{
+    background: linear-gradient(135deg, #000000 0%,#000000 25%,#1e539e 50%,#ff3083 75%,#7800a8 100%);    transition: 1s ease;
+}
+
+.imgHover{
+    height: 120px;
+    width: 90px;
+}
+
